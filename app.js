@@ -88,6 +88,8 @@ function draw() {
   y += dy;
 }
 
+/*=====================================Util functions=========================*/
+
 // Add listener to the keyboard keys up and down
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
@@ -109,5 +111,5 @@ function keyUpHandler(e) {
   }
 }
 
-// Define the frame rate 
+// Define the frame rate
 setInterval(draw, 10);
